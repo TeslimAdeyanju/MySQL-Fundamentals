@@ -17,7 +17,18 @@ This portfolio is organized into sections that document my SQL proficiency journ
 - **Aggregations and Summaries**: Summarizing data for deeper insights.
 - **Subqueries and Nested Statements**: Tackling complex data needs efficiently.
 
-Each section serves as a building block, where I’ve combined SQL with Python to transform data into insights.
+Each section serves as a building block, where I've combined SQL with Python to transform data into insights.
+
+## 🚀 Getting Started
+
+Before diving into the notebooks, you'll need to set up your local environment. This includes:
+
+- Installing Python dependencies (mysql-connector-python, pandas, jupyter, python-dotenv)
+- Setting up MySQL Server
+- Installing the ClassicModels sample database
+- Configuring your database credentials securely
+
+**👉 For detailed setup instructions, see [SETUP.md](SETUP.md)**
 
 ## Dive Deeper on My Notion Page 📘
 
