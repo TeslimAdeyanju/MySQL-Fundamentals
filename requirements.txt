@@ -1,0 +1,6 @@
+mysql-connector-python==8.0.33
+pandas==2.0.3
+python-dotenv==1.0.0
+jupyter==1.0.0
+notebook==6.5.4
+ipykernel==6.23.1
