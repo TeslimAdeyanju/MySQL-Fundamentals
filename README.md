@@ -2,26 +2,25 @@
 
 [![SQL Portfolio](https://img.shields.io/badge/Portfolio-Data%20Analysis-informational)](https://github.com/TeslimAdeyanju/sql-code-portfolio)
 
-[![Notion](https://img.shields.io/badge/Documentation-Notion-brightgreen)](https://notion.so/https://teslimuthmanadeyanju.notion.site/BASIC-SQL-3e0482d698324d7ca389a41efa3c17d8?pvs=4)
+[![Notion](https://img.shields.io/badge/Documentation-Notion-brightgreen)](https://teslimuthmanadeyanju.notion.site/BASIC-SQL-3e0482d698324d7ca389a41efa3c17d8?pvs=4)
 
-Welcome to my SQL Journey! This repository is a living record of my exploration into SQL and MySQL, showcasing essential skills like column and table aliases, joins, aggregations, and conditional filtering. Each section represents a milestone in my learning path, crafted to deepen my understanding of SQL’s power and versatility in real-world data analysis..
+Welcome to my SQL Journey! This repository is a living record of my exploration into SQL and MySQL, showcasing essential skills like column and table aliases, joins, aggregations, subqueries, functions, and advanced stored programming. Each section represents a milestone in my learning path, crafted to deepen my understanding of SQL's power and versatility in real-world data analysis.
 
-But here’s the exciting part: I’ve integrated Python to bring these SQL queries to life! Using `mysql.connector`, I connect directly to MySQL from Python, and with the help of `pandas`, I transform raw query results into clean, easy-to-read data frames. This combination lets me explore data interactively and visualize results right within my Python scripts—turning each query into a more insightful experience.
+I've integrated Python to bring these SQL queries to life! Using `mysql.connector`, I connect directly to MySQL from Python, and with the help of `pandas`, I transform raw query results into clean, easy-to-read data frames — turning each query into a more insightful experience.
 
-## 📂 Portfolio Overview
+## 📂 Portfolio Structure
 
-This portfolio is organized into sections that document my SQL proficiency journey:
+The portfolio is organized into **3 modules** reflecting a full MySQL learning path:
 
-- **Querying and Filtering**: Core SQL skills for conditional data extraction.
-- **Table Joins and Relationships**: Leveraging relational database principles.
-- **Aggregations and Summaries**: Summarizing data for deeper insights.
-- **Subqueries and Nested Statements**: Tackling complex data needs efficiently.
-
-Each section serves as a building block, where I've combined SQL with Python to transform data into insights.
+| Module | Focus |
+|--------|-------|
+| [Module 1 — MySQL Basics](#module-1--mysql-basics) | Core SQL: querying, filtering, joins, grouping, subqueries, set ops |
+| [Module 2 — MySQL Functions](#module-2--mysql-functions) | Built-in functions: aggregate, string, date, window, regex, and more |
+| [Module 3 — MySQL Advanced](#module-3--mysql-advanced) | Stored programs: procedures, loops, cursors, transactions, error handling |
 
 ## 🚀 Getting Started
 
-Before diving into the notebooks, you'll need to set up your local environment. This includes:
+Before diving into the notebooks, you’ll need to set up your local environment. This includes:
 
 - Installing Python dependencies (mysql-connector-python, pandas, jupyter, python-dotenv)
 - Setting up MySQL Server
@@ -30,95 +29,112 @@ Before diving into the notebooks, you'll need to set up your local environment. 
 
 **👉 For detailed setup instructions, see [SETUP.md](SETUP.md)**
 
-## Dive Deeper on My Notion Page 📘
+---
 
-For a detailed look, visit my [Notion Page](https://teslimuthmanadeyanju.notion.site/BASIC-SQL-3e0482d698324d7ca389a41efa3c17d8?pvs=4), where I document each skill, reflect on learning milestones, and provide additional resources. This page is your one-stop resource for:
+## Module 1 — MySQL Basics
 
-- **In-depth explanations** of SQL concepts and techniques
-- **Personal reflections** and learning milestones
-- **Additional resources** to deepen your SQL knowledge
+### 01. 🧭 MySQL Intro
 
-This repository and my Notion page together offer a comprehensive view of my SQL journey, connecting learning and real-world application. Let’s uncover insights from SQL, one query at a time!
+My journey started here — learning the fundamental SQL operations needed to retrieve and sort data.
+
+- **[Querying Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/01-intro/1.1-select-sql-notebook.ipynb)** — `SELECT` statements and column aliases.
+- **[Sorting Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/01-intro/1.2-sorting-sql-notebook.ipynb)** — Organising results with `ORDER BY`.
 
 ---
 
-### 1. 🧭 MySQL Basics
+### 02. 🔍 Filtering Data
 
-This is where my journey began, learning the fundamental SQL operations needed to manage and query data. Understanding the basics of SQL was crucial in building a solid foundation for more complex tasks.
+Precise filtering lets me extract exactly the data I need from large datasets.
 
-- **[Querying Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basics/1.1-select-sql-notebook.ipynb)**: My first SQL statements! Focusing on how to retrieve data from tables using simple `SELECT` queries.
-- **[Sorting Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basics/1.2-sorting-sql-notebook.ipynb)**: I explored the power of organizing results with `ORDER BY`, a vital tool for any analyst.
-
----
-
-### 2. 🔍 Filtering Data
-
-Moving forward, I learned how to filter data precisely, allowing me to refine my queries for specific insights. These techniques taught me how to extract just the data I needed from large datasets.
-
-- **[WHERE and DISTINCT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-filtering-data/2.1-filtering-data-sql-notebook.ipynb)**: Filtering rows was a game-changer! I learned to apply conditions to hone in on relevant data and eliminate duplicates.
-
+- **[WHERE and DISTINCT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/02-filtering/2.1-filtering-data-sql-notebook.ipynb)** — Applying conditions and eliminating duplicates.
 
 ---
 
-### 3. 🌐 Joining Tables
+### 03. 🌐 Joining Tables
 
-Joining tables felt like unlocking a new dimension in SQL. Here, I learned how to combine data from multiple sources, an essential skill for creating comprehensive data reports. Each type of join has taught me different approaches to merging datasets, allowing me to choose the best method based on the results I need.
+Joining tables unlocked a new dimension in SQL — combining data across multiple sources.
 
-- **[INNER JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-joining-tables/3.2-inner-join-sql-notebook.ipynb)**: I started with INNER JOINs, which only bring together data when matches exist in both tables. This join type is perfect when I need results that meet strict criteria across two tables.
-
-- **[LEFT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-joining-tables/3.3-left-join-sql-notebook.ipynb)**: LEFT JOIN introduced me to the importance of keeping unmatched data from the left table. When there’s no corresponding data in the right table, it fills the gaps with `NULL`. This join is especially useful when I want all data from the primary table (left table) and any matched data from the secondary table.
-
-- **[RIGHT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-joining-tables/3.4-right-join-sql-notebook.ipynb)**: Learning RIGHT JOIN was the reverse experience of the LEFT JOIN. Here, I keep all data from the right table and match it with the left table where possible. If there’s no match in the left table, SQL fills the missing entries with `NULL`. This approach is valuable when my primary interest is in the complete dataset of the right table while including any relevant data from the left table.
-
-- **[SELF JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-joining-tables/3.5-self-join-sql-notebook.ipynb)**: SELF JOIN opened up a unique perspective by allowing me to join a table to itself. This is useful when comparing rows within the same table, such as finding pairs of employees with the same manager or comparing dates within a single dataset. By using table aliases, I could treat the same table as two distinct entities in the query, expanding the scope of analysis I could perform within a single dataset.
-
-Each of these join types gives me control over how I handle matched and unmatched data across tables, allowing me to build robust, comprehensive datasets tailored to specific analytical needs. From precise filtering with INNER JOIN to comparing entries within a single table using SELF JOIN, I’ve learned how to approach complex data relationships with flexibility and depth.
+- **[Table Aliases](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.1-table-alias-sql-notebook.ipynb)** — Cleaner queries with aliasing.
+- **[INNER JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.2-inner-join-sql-notebook.ipynb)** — Matching rows that exist in both tables.
+- **[LEFT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.3-left-join-sql-notebook.ipynb)** — All rows from the left table, with `NULL` for missing matches.
+- **[RIGHT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.4-right-join-sql-notebook.ipynb)** — All rows from the right table, with `NULL` for missing matches.
+- **[SELF JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.5-self-join-sql-notebook.ipynb)** — Comparing rows within the same table using aliases.
 
 ---
 
-### 4. 📂 Aggregations and Grouping
+### 04. 📊 Grouping Data
 
-Aggregations were my introduction to data summarization, where I could extract valuable insights from groups within my data. Grouping allowed me to observe trends and analyze data at a higher level.
+Aggregations let me summarise data and observe trends at a higher level.
 
-- **[GROUP BY](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/4-grouping-data/4.1-group-by-sql-notebook.ipynb)**: With `GROUP BY`, I began to organize my data into meaningful categories.
-- **[HAVING](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/4-grouping-data/4.2-Having-sql-notebook.ipynb)**: Filtering groups with `HAVING` brought in-depth analysis, allowing me to set conditions on aggregated results.
-
----
-
-### 5. 🧩 Subqueries
-
-Subqueries opened up new ways to approach SQL challenges, letting me nest queries to handle more complex data scenarios. This section highlights how I learned to structure queries within queries.
-
-- **[Simple Subquery](https://github.com/yourusername/sql-code-portfolio/blob/main/05_subqueries_simple.sql)**: My first attempt at subqueries, where I embedded one query inside another.
-- **[Derived Table](https://github.com/yourusername/sql-code-portfolio/blob/main/05_subqueries_derived_table.sql)**: Using subqueries as temporary tables helped simplify complex query structures.
+- **[GROUP BY](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/04-grouping-data/4.1-group-by-sql-notebook.ipynb)** — Organising data into meaningful categories.
+- **[HAVING](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/04-grouping-data/4.2-Having-sql-notebook.ipynb)** — Filtering groups based on aggregated conditions.
 
 ---
 
-### 6. 🛠️ Set Operations
+### 05. 🧩 Subqueries
 
-Learning set operations like `UNION`, `INTERSECT`, and `EXCEPT` allowed me to combine or compare result sets. These operations expanded my ability to compare datasets and unify results across different queries.
+Nesting queries opened up powerful ways to handle complex data scenarios.
 
-- **[UNION](https://github.com/TeslimAdeyanju/my-SQL-Journey-From-Fundamentals-to-Advanced-Data-Mastery/blob/main/6-Set%20Operations/6.1_union_sql_portfolio_notebook%20copy%202.ipynb)**: `UNION` became a valuable tool for merging datasets without duplicating entries.
-- **[INTERSECTION](https://github.com/TeslimAdeyanju/my-SQL-Journey-From-Fundamentals-to-Advanced-Data-Mastery/blob/main/6-Set%20Operations/6.2_intersect_sql_portfolio_notebook%20copy.ipynb)** `INTERSECTION` useful for combinining common columns in two or more tables
-- **[EXCEPT](https://github.com/TeslimAdeyanju/my-SQL-Journey-From-Fundamentals-to-Advanced-Data-Mastery/blob/main/6-Set%20Operations/6.3_except_sql_portfolio_notebook.ipynb)** `EXCEPT` commonly use to exclude a columns in a tables.
-
----
-
-### 7. 🗄️ Database and Table Management
-
-Managing databases and tables helped me gain confidence in SQL as a backend developer's tool. Here, I learned to create and modify databases and tables, a vital skill for managing structured data.
-
-- **[CREATE DATABASE](https://github.com/yourusername/sql-code-portfolio/blob/main/07_database_management_create_database.sql)**: Setting up databases from scratch!
-- **[CREATE TABLE](https://github.com/yourusername/sql-code-portfolio/blob/main/07_database_management_create_table.sql)**: Designing table structures taught me the importance of data organization.
+- **[Simple Subquery](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/05-subqueries/5.1-subquery-sql-notebook.ipynb)** — Embedding one query inside another for dynamic filtering.
+- **[Derived Tables](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/05-subqueries/5.2-derived-table-sql-notebook.ipynb)** 🚧 — Using subqueries as temporary tables to simplify complex structures.
+- **[EXISTS Operator](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/05-subqueries/5.3-exists-sql-notebook.ipynb)** 🚧 — Conditional filtering based on subquery existence checks.
 
 ---
 
-### 8. 🔐 Constraints and Data Integrity
+### 06. 🛠️ Set Operations
 
-As I advanced, I learned how to use constraints to enforce data integrity. Constraints ensure that data entries are consistent and reliable, essential for trustworthy databases.
+Combining and comparing result sets across different queries.
 
-- **[PRIMARY KEY](https://github.com/yourusername/sql-code-portfolio/blob/main/08_constraints_primary_key.sql)**: Defining unique identifiers for each table row.
-- **[FOREIGN KEY](https://github.com/yourusername/sql-code-portfolio/blob/main/08_constraints_foreign_key.sql)**: Creating relationships between tables by linking primary keys.
+- **[UNION](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/06-set-operations/6.1-union-sql-notebook.ipynb)** — Merging datasets without duplicating entries.
+- **[INTERSECT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/06-set-operations/6.2-intersect-sql-notebook.ipynb)** — Finding common rows across two result sets.
+- **[EXCEPT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/06-set-operations/6.3-except-sql-notebook.ipynb)** — Excluding rows present in a second result set.
+
+---
+
+### 07–13. 🗄️ Additional Topics *(Coming Soon)*
+
+| # | Topic | Notebook |
+|---|-------|----------|
+| 07 | Managing Databases | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/07-managing-database/7.1-managing-database-sql-notebook.ipynb) 🚧 |
+| 08 | Working with Tables | [8.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/08-working-with-tables/8.1-working-with-tables-sql-notebook.ipynb) 🚧 |
+| 09 | Constraints | [9.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/09-constraints/9.1-constraints-sql-notebook.ipynb) 🚧 |
+| 10 | Data Types | [10.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/10-data-types/10.1-data-types-sql-notebook.ipynb) 🚧 |
+| 11 | Modifying Data | [11.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/11-modifying-data/11.1-modifying-data-sql-notebook.ipynb) 🚧 |
+| 12 | Common Table Expressions | [12.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/12-common-table-expressions/12.1-common-table-expressions-sql-notebook.ipynb) 🚧 |
+| 13 | Management Tools | [13.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/13-management-tools/13.1-management-tools-sql-notebook.ipynb) 🚧 |
+
+---
+
+## Module 2 — MySQL Functions
+
+*(All notebooks in this module are works in progress — content being added progressively)*
+
+| # | Topic | Notebook |
+|---|-------|----------|
+| 01 | Aggregate Functions | [1.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/01-aggregate-functions/1.1-aggregate-functions-sql-notebook.ipynb) 🚧 |
+| 02 | Comparison Functions | [2.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/02-comparison-functions/2.1-comparison-functions-sql-notebook.ipynb) 🚧 |
+| 03 | Control Flow Functions | [3.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/03-control-flow-functions/3.1-control-flow-functions-sql-notebook.ipynb) 🚧 |
+| 04 | Date Functions | [4.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/04-date-functions/4.1-date-functions-sql-notebook.ipynb) 🚧 |
+| 05 | String Functions | [5.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/05-string-functions/5.1-string-functions-sql-notebook.ipynb) 🚧 |
+| 06 | Window Functions | [6.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/06-window-functions/6.1-window-functions-sql-notebook.ipynb) 🚧 |
+| 07 | Math Functions | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/07-math-functions/7.1-math-functions-sql-notebook.ipynb) 🚧 |
+| 08 | Regular Expressions | [8.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/08-regular-expressions/8.1-regular-expressions-sql-notebook.ipynb) 🚧 |
+
+---
+
+## Module 3 — MySQL Advanced
+
+*(All notebooks in this module are works in progress — content being added progressively)*
+
+| # | Topic | Notebook |
+|---|-------|----------|
+| 01 | Conditional Statements | [1.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/01-conditional-statements/1.1-conditional-statements-sql-notebook.ipynb) 🚧 |
+| 02 | Stored Procedures | [2.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/02-stored-procedures/2.1-stored-procedures-sql-notebook.ipynb) 🚧 |
+| 03 | Loops | [3.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/03-loops/3.1-loops-sql-notebook.ipynb) 🚧 |
+| 04 | Error Handling | [4.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/04-error-handling/4.1-error-handling-sql-notebook.ipynb) 🚧 |
+| 05 | Cursors | [5.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/05-cursors/5.1-cursors-sql-notebook.ipynb) 🚧 |
+| 06 | Stored Program Security | [6.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/06-stored-program-security/6.1-stored-program-security-sql-notebook.ipynb) 🚧 |
+| 07 | Transactions | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/07-transactions/7.1-transactions-sql-notebook.ipynb) 🚧 |
 
 ---
 
@@ -129,17 +145,16 @@ This portfolio serves as:
 - **Educational Material**: A guide for learning essential SQL techniques, with easy-to-follow examples.
 - **Showcase of Expertise**: Evidence of my SQL proficiency, demonstrating real-world skills in data analysis, reporting, and database management.
 
-## 🌐 Further Documentation and Learning Journey
+## 🌐 Further Documentation
 
-For more in-depth notes and reflections on each topic, visit my [Notion Page](https://notion.so/your-notion-link). This page documents insights, learning milestones, and additional resources, providing a complete picture of my SQL journey.
+For in-depth notes and reflections on each topic, visit my [Notion Page](https://teslimuthmanadeyanju.notion.site/BASIC-SQL-3e0482d698324d7ca389a41efa3c17d8?pvs=4), where I document insights, learning milestones, and additional resources.
 
-### 📬 **Get in Touch**
+---
 
-I’m always excited to collaborate on data-driven projects, particularly those involving SQL analytics. Feel free to connect with me!
+### 📬 Get in Touch
 
-📧 [info@adeyanjuteslim.co.uk](mailto:info@adeyanjuteslim.co.uk)  
-🌍 [adeyanjuteslim.co.uk](https://adeyanjuteslim.co.uk)  
+📧 [info@adeyanjuteslim.co.uk](mailto:info@adeyanjuteslim.co.uk)
+🌍 [adeyanjuteslim.co.uk](https://adeyanjuteslim.co.uk)
 💼 [LinkedIn](https://www.linkedin.com/in/adeyanjuteslimuthman)
 
 [![wakatime](https://wakatime.com/badge/github/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery.svg)](https://wakatime.com/badge/github/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery)
----
