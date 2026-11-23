@@ -27,7 +27,7 @@ Before diving into the notebooks, you’ll need to set up your local environment
 - Installing the ClassicModels sample database
 - Configuring your database credentials securely
 
-**👉 For detailed setup instructions, see [SETUP.md](SETUP.md)**
+**👉 For detailed setup instructions, see [setup.md](setup.md)**
 
 ---
 
@@ -37,8 +37,8 @@ Before diving into the notebooks, you’ll need to set up your local environment
 
 My journey started here — learning the fundamental SQL operations needed to retrieve and sort data.
 
-- **[Querying Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/01-intro/1.1-select-sql-notebook.ipynb)** — `SELECT` statements and column aliases.
-- **[Sorting Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/01-intro/1.2-sorting-sql-notebook.ipynb)** — Organising results with `ORDER BY`.
+- **[Querying Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/01_intro/1_1_select_sql_notebook.ipynb)** — `SELECT` statements and column aliases.
+- **[Sorting Data](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/01_intro/1_2_sorting_sql_notebook.ipynb)** — Organising results with `ORDER BY`.
 
 ---
 
@@ -46,7 +46,7 @@ My journey started here — learning the fundamental SQL operations needed to re
 
 Precise filtering lets me extract exactly the data I need from large datasets.
 
-- **[WHERE and DISTINCT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/02-filtering/2.1-filtering-data-sql-notebook.ipynb)** — Applying conditions and eliminating duplicates.
+- **[WHERE and DISTINCT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/02_filtering/2_1_filtering_data_sql_notebook.ipynb)** — Applying conditions and eliminating duplicates.
 
 ---
 
@@ -54,11 +54,11 @@ Precise filtering lets me extract exactly the data I need from large datasets.
 
 Joining tables unlocked a new dimension in SQL — combining data across multiple sources.
 
-- **[Table Aliases](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.1-table-alias-sql-notebook.ipynb)** — Cleaner queries with aliasing.
-- **[INNER JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.2-inner-join-sql-notebook.ipynb)** — Matching rows that exist in both tables.
-- **[LEFT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.3-left-join-sql-notebook.ipynb)** — All rows from the left table, with `NULL` for missing matches.
-- **[RIGHT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.4-right-join-sql-notebook.ipynb)** — All rows from the right table, with `NULL` for missing matches.
-- **[SELF JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/03-joining-tables/3.5-self-join-sql-notebook.ipynb)** — Comparing rows within the same table using aliases.
+- **[Table Aliases](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/03_joining_tables/3_1_table_alias_sql_notebook.ipynb)** — Cleaner queries with aliasing.
+- **[INNER JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/03_joining_tables/3_2_inner_join_sql_notebook.ipynb)** — Matching rows that exist in both tables.
+- **[LEFT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/03_joining_tables/3_3_left_join_sql_notebook.ipynb)** — All rows from the left table, with `NULL` for missing matches.
+- **[RIGHT JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/03_joining_tables/3_4_right_join_sql_notebook.ipynb)** — All rows from the right table, with `NULL` for missing matches.
+- **[SELF JOIN](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/03_joining_tables/3_5_self_join_sql_notebook.ipynb)** — Comparing rows within the same table using aliases.
 
 ---
 
@@ -66,8 +66,8 @@ Joining tables unlocked a new dimension in SQL — combining data across multipl
 
 Aggregations let me summarise data and observe trends at a higher level.
 
-- **[GROUP BY](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/04-grouping-data/4.1-group-by-sql-notebook.ipynb)** — Organising data into meaningful categories.
-- **[HAVING](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/04-grouping-data/4.2-Having-sql-notebook.ipynb)** — Filtering groups based on aggregated conditions.
+- **[GROUP BY](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/04_grouping_data/4_1_group_by_sql_notebook.ipynb)** — Organising data into meaningful categories.
+- **[HAVING](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/04_grouping_data/4_2_having_sql_notebook.ipynb)** — Filtering groups based on aggregated conditions.
 
 ---
 
@@ -75,9 +75,9 @@ Aggregations let me summarise data and observe trends at a higher level.
 
 Nesting queries opened up powerful ways to handle complex data scenarios.
 
-- **[Simple Subquery](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/05-subqueries/5.1-subquery-sql-notebook.ipynb)** — Embedding one query inside another for dynamic filtering.
-- **[Derived Tables](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/05-subqueries/5.2-derived-table-sql-notebook.ipynb)** 🚧 — Using subqueries as temporary tables to simplify complex structures.
-- **[EXISTS Operator](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/05-subqueries/5.3-exists-sql-notebook.ipynb)** 🚧 — Conditional filtering based on subquery existence checks.
+- **[Simple Subquery](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/05_subqueries/5_1_subquery_sql_notebook.ipynb)** — Embedding one query inside another for dynamic filtering.
+- **[Derived Tables](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/05_subqueries/5_2_derived_table_sql_notebook.ipynb)** 🚧 — Using subqueries as temporary tables to simplify complex structures.
+- **[EXISTS Operator](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/05_subqueries/5_3_exists_sql_notebook.ipynb)** 🚧 — Conditional filtering based on subquery existence checks.
 
 ---
 
@@ -85,9 +85,9 @@ Nesting queries opened up powerful ways to handle complex data scenarios.
 
 Combining and comparing result sets across different queries.
 
-- **[UNION](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/06-set-operations/6.1-union-sql-notebook.ipynb)** — Merging datasets without duplicating entries.
-- **[INTERSECT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/06-set-operations/6.2-intersect-sql-notebook.ipynb)** — Finding common rows across two result sets.
-- **[EXCEPT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/06-set-operations/6.3-except-sql-notebook.ipynb)** — Excluding rows present in a second result set.
+- **[UNION](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/06_set_operations/6_1_union_sql_notebook.ipynb)** — Merging datasets without duplicating entries.
+- **[INTERSECT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/06_set_operations/6_2_intersect_sql_notebook.ipynb)** — Finding common rows across two result sets.
+- **[EXCEPT](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/06_set_operations/6_3_except_sql_notebook.ipynb)** — Excluding rows present in a second result set.
 
 ---
 
@@ -95,13 +95,13 @@ Combining and comparing result sets across different queries.
 
 | # | Topic | Notebook |
 |---|-------|----------|
-| 07 | Managing Databases | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/07-managing-database/7.1-managing-database-sql-notebook.ipynb) 🚧 |
-| 08 | Working with Tables | [8.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/08-working-with-tables/8.1-working-with-tables-sql-notebook.ipynb) 🚧 |
-| 09 | Constraints | [9.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/09-constraints/9.1-constraints-sql-notebook.ipynb) 🚧 |
-| 10 | Data Types | [10.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/10-data-types/10.1-data-types-sql-notebook.ipynb) 🚧 |
-| 11 | Modifying Data | [11.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/11-modifying-data/11.1-modifying-data-sql-notebook.ipynb) 🚧 |
-| 12 | Common Table Expressions | [12.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/12-common-table-expressions/12.1-common-table-expressions-sql-notebook.ipynb) 🚧 |
-| 13 | Management Tools | [13.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1-mysql-basic-module/13-management-tools/13.1-management-tools-sql-notebook.ipynb) 🚧 |
+| 07 | Managing Databases | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/07_managing_database/7_1_managing_database_sql_notebook.ipynb) 🚧 |
+| 08 | Working with Tables | [8.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/08_working_with_tables/8_1_working_with_tables_sql_notebook.ipynb) 🚧 |
+| 09 | Constraints | [9.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/09_constraints/9_1_constraints_sql_notebook.ipynb) 🚧 |
+| 10 | Data Types | [10.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/10_data_types/10_1_data_types_sql_notebook.ipynb) 🚧 |
+| 11 | Modifying Data | [11.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/11_modifying_data/11_1_modifying_data_sql_notebook.ipynb) 🚧 |
+| 12 | Common Table Expressions | [12.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/12_common_table_expressions/12_1_common_table_expressions_sql_notebook.ipynb) 🚧 |
+| 13 | Management Tools | [13.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/1_mysql_basic_module/13_management_tools/13_1_management_tools_sql_notebook.ipynb) 🚧 |
 
 ---
 
@@ -111,14 +111,14 @@ Combining and comparing result sets across different queries.
 
 | # | Topic | Notebook |
 |---|-------|----------|
-| 01 | Aggregate Functions | [1.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/01-aggregate-functions/1.1-aggregate-functions-sql-notebook.ipynb) 🚧 |
-| 02 | Comparison Functions | [2.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/02-comparison-functions/2.1-comparison-functions-sql-notebook.ipynb) 🚧 |
-| 03 | Control Flow Functions | [3.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/03-control-flow-functions/3.1-control-flow-functions-sql-notebook.ipynb) 🚧 |
-| 04 | Date Functions | [4.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/04-date-functions/4.1-date-functions-sql-notebook.ipynb) 🚧 |
-| 05 | String Functions | [5.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/05-string-functions/5.1-string-functions-sql-notebook.ipynb) 🚧 |
-| 06 | Window Functions | [6.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/06-window-functions/6.1-window-functions-sql-notebook.ipynb) 🚧 |
-| 07 | Math Functions | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/07-math-functions/7.1-math-functions-sql-notebook.ipynb) 🚧 |
-| 08 | Regular Expressions | [8.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2-mysql-function-module/08-regular-expressions/8.1-regular-expressions-sql-notebook.ipynb) 🚧 |
+| 01 | Aggregate Functions | [1.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/01_aggregate_functions/1_1_aggregate_functions_sql_notebook.ipynb) 🚧 |
+| 02 | Comparison Functions | [2.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/02_comparison_functions/2_1_comparison_functions_sql_notebook.ipynb) 🚧 |
+| 03 | Control Flow Functions | [3.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/03_control_flow_functions/3_1_control_flow_functions_sql_notebook.ipynb) 🚧 |
+| 04 | Date Functions | [4.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/04_date_functions/4_1_date_functions_sql_notebook.ipynb) 🚧 |
+| 05 | String Functions | [5.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/05_string_functions/5_1_string_functions_sql_notebook.ipynb) 🚧 |
+| 06 | Window Functions | [6.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/06_window_functions/6_1_window_functions_sql_notebook.ipynb) 🚧 |
+| 07 | Math Functions | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/07_math_functions/7_1_math_functions_sql_notebook.ipynb) 🚧 |
+| 08 | Regular Expressions | [8.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/2_mysql_function_module/08_regular_expressions/8_1_regular_expressions_sql_notebook.ipynb) 🚧 |
 
 ---
 
@@ -128,13 +128,13 @@ Combining and comparing result sets across different queries.
 
 | # | Topic | Notebook |
 |---|-------|----------|
-| 01 | Conditional Statements | [1.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/01-conditional-statements/1.1-conditional-statements-sql-notebook.ipynb) 🚧 |
-| 02 | Stored Procedures | [2.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/02-stored-procedures/2.1-stored-procedures-sql-notebook.ipynb) 🚧 |
-| 03 | Loops | [3.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/03-loops/3.1-loops-sql-notebook.ipynb) 🚧 |
-| 04 | Error Handling | [4.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/04-error-handling/4.1-error-handling-sql-notebook.ipynb) 🚧 |
-| 05 | Cursors | [5.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/05-cursors/5.1-cursors-sql-notebook.ipynb) 🚧 |
-| 06 | Stored Program Security | [6.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/06-stored-program-security/6.1-stored-program-security-sql-notebook.ipynb) 🚧 |
-| 07 | Transactions | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3-mysql-advanced-module/07-transactions/7.1-transactions-sql-notebook.ipynb) 🚧 |
+| 01 | Conditional Statements | [1.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3_mysql_advanced_module/01_conditional_statements/1_1_conditional_statements_sql_notebook.ipynb) 🚧 |
+| 02 | Stored Procedures | [2.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3_mysql_advanced_module/02_stored_procedures/2_1_stored_procedures_sql_notebook.ipynb) 🚧 |
+| 03 | Loops | [3.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3_mysql_advanced_module/03_loops/3_1_loops_sql_notebook.ipynb) 🚧 |
+| 04 | Error Handling | [4.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3_mysql_advanced_module/04_error_handling/4_1_error_handling_sql_notebook.ipynb) 🚧 |
+| 05 | Cursors | [5.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3_mysql_advanced_module/05_cursors/5_1_cursors_sql_notebook.ipynb) 🚧 |
+| 06 | Stored Program Security | [6.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3_mysql_advanced_module/06_stored_program_security/6_1_stored_program_security_sql_notebook.ipynb) 🚧 |
+| 07 | Transactions | [7.1](https://github.com/TeslimAdeyanju/1-Portfolio-MySQL-Journey-Fundamentals-to-Advanced-Mastery/blob/main/3_mysql_advanced_module/07_transactions/7_1_transactions_sql_notebook.ipynb) 🚧 |
 
 ---
 
